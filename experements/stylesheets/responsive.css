@@ -1,0 +1,1327 @@
+@media screen and (min-width: 1920px){
+
+    .lilboxes{
+        position: relative;
+        display: flex;
+        margin-top: 1%;
+        width: 100%;
+        height: 30%;
+        justify-content: space-between;
+    }
+    
+    .lilbox1{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 30%; 
+    }  
+    
+    
+    .lilbox2{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 30%;
+    }
+    
+    .box2{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .box1{
+        position: relative;
+        display: flex;
+        width: 15%;
+        height: 100%;
+        margin-top: 1.5%;
+    }
+    
+    
+    .box3{
+        position: relative;
+        display: flex;
+        width: 15%;
+        height: 100%;
+        margin-top: 1.5%
+    }
+    
+    .box22{
+        position: relative;
+        display:inline-block;
+        margin: 1%;
+        width: 70%;   
+        height: 80%;
+    }
+    
+    .picture{
+        /* width: 15vw; */
+        width: 100%;
+        /* margin-right: 6%; */
+    }
+    
+    .picture5{
+        /* width: 15vw; */
+        width: 100%;
+        /* margin-left: 3%; */
+    }
+    
+    
+    .picture1{
+        width: 100%;
+    }
+    
+    .picture3{
+        width: 660px;
+        height: 300px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil2.png");
+        background-size: 200% 100%;
+        animation: picture3 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture3{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 1321px 0px;}
+    } 
+
+    .picture2{
+        width: 660px;
+        height: 300px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil1.png");
+        background-size: 200% 100%;
+        animation: picture2 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture2{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 1321px 0px;}
+    } 
+
+    .game1{
+        position: relative;
+        display: flex; 
+        width: 100%;    
+    }
+    
+    
+    .packman{
+        width: 1340px;
+        height: 1165px;
+        position: relative;
+        display: flex; 
+        background: url("../img/packman.png");
+        background-size: 1700% 100%;
+        animation: eat 5s steps(1) infinite;
+        animation-play-state: running; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    @keyframes eat {
+        0%{background-position: 0.0px 0px;}
+        10%{background-position: -1340.0px 0px;}
+        15%{background-position: -2680.0px 0px;}
+        20%{background-position: -4020.0px 0px;}
+        25%{background-position: -5360.0px 0px;}
+        30%{background-position: -6700.0px 0px;}
+        35%{background-position: -8040.0px 0px;}
+        40%{background-position: -9380.0px 0px;}
+        45%{background-position: -10720.0px 0px;}
+        50%{background-position: -12060.0px 0px;}
+        55%{background-position: -13400.0px 0px;}
+        60%{background-position: -14740.0px 0px;}
+        65%{background-position: -16080.0px 0px;}
+        70%{background-position: -17420.0px 0px;}
+        75%{background-position: -18760.0px 0px;}
+        82%{background-position: -20100.0px 0px;}
+        90%{background-position: -21440.0px 0px;}
+        100%{background-position: -22780.0px 0px;}
+    }
+
+    .ship {
+        width: 521.0px;
+        height: 1170.12px;
+        position: relative;
+        display: flex; 
+        background: url("../img/ship.png");
+        background-size: 2100% 100%;
+        animation: fly 1s steps(1) infinite;
+        animation-play-state: running; 
+    }
+    
+    
+    @keyframes fly {
+        0%{background-position: 0.0px 0px;}
+        10%{background-position: -521.0px 0px;}
+        15%{background-position: -1042.0px 0px;}
+        20%{background-position: -1563.0px 0px;}
+        25%{background-position: -2084.0px 0px;}
+        30%{background-position: -2605.0px 0px;}
+        35%{background-position: -3126.0px 0px;}
+        40%{background-position: -3647.0px 0px;}
+        45%{background-position: -4168.0px 0px;}
+        50%{background-position: -4689.0px 0px;}
+        55%{background-position: -5210.0px 0px;}
+        60%{background-position: -5731.0px 0px;}
+        65%{background-position: -6252.0px 0px;}
+        70%{background-position: -6773.0px 0px;}
+        75%{background-position: -7294.0px 0px;}
+        80%{background-position: -7815.0px 0px;}
+        85%{background-position: -8336.0px 0px;}
+        88%{background-position: -8857.0px 0px;}
+        90%{background-position: -9378.0px 0px;}
+        95%{background-position: -9899.0px 0px;}
+        100%{background-position: -10420.0px 0px;}
+    }
+      
+    .chechik{
+        width: 456.45px;
+        height: 365px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: chech 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    .chechik:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech {
+    
+        0% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        20% {
+            margin-left: -20%;
+            margin-right: 0%;
+        }
+    
+        60%{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        80%{
+            margin-right: -20%;
+            margin-left: 0%;
+        }
+    
+        100% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        
+    }
+    
+    .pix{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+        z-index: 1;
+    } 
+    
+    
+    .game4{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik2{
+        width: 434px;
+        height: 354.25px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel2.png");
+        background-size: 200% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: colormix 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .chechik2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes colormix{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 868px 0px;}
+    } 
+    
+    .pix2{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+    } 
+    
+    .game5{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik3{
+        width: 419px;
+        height: 337.23px;
+        position: absolute;
+        display: flex; 
+        margin-top: 10%;
+        background: url("../img/chel3.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        animation: chech3 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    }
+    
+    
+    .chechik3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech3 {
+    
+        0% {
+           margin-top: 20%;
+           margin-bottom: 0%;
+        }
+    
+        20% {
+            margin-top: 10%;
+            margin-bottom: 0%;
+        }
+    
+        60%{
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        80%{
+            margin-top: 30%;
+            margin-bottom: 0%;
+        }
+    
+        100% {
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 1440px){
+    
+    .picture3{
+        width: 488px;
+        height: 226px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil2.png");
+        background-size: 200% 100%;
+        animation: picture3 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture3{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 977px 0px;}
+    } 
+
+    .picture2{
+        width: 488px;
+        height: 226px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil1.png");
+        background-size: 200% 100%;
+        animation: picture2 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture2{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 977px 0px;}
+    } 
+
+
+    .game1{
+        position: relative;
+        display: flex; 
+        width: 100%;    
+    }
+    
+    
+    .packman{
+        width: 982px;
+        height: 896px;
+        position: relative;
+        display: flex; 
+        background: url("../img/packman.png");
+        background-size: 1700% 100%;
+        animation: eat 5s steps(1) infinite;
+        animation-play-state: running; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    @keyframes eat {
+        0%{background-position: 0.0px 0px;}
+        10%{background-position: -982.0px 0px;}
+        20%{background-position: -1964.0px 0px;}
+        25%{background-position: -2946.0px 0px;}
+        30%{background-position: -3928.0px 0px;}
+        35%{background-position: -4910.0px 0px;}
+        40%{background-position: -5892.0px 0px;}
+        45%{background-position: -6874.0px 0px;}
+        50%{background-position: -7856.0px 0px;}
+        55%{background-position: -8838.0px 0px;}
+        60%{background-position: -9820.0px 0px;}
+        65%{background-position: -10802.0px 0px;}
+        75%{background-position: -11784.0px 0px;}
+        80%{background-position: -12766.0px 0px;}
+        85%{background-position: -13748.0px 0px;}
+        90%{background-position: -14730.0px 0px;}
+        95%{background-position: -15712.0px 0px;}
+        100%{background-position: -16694.0px 0px;}
+    }
+
+    .ship {
+        width: 412.43px;
+        height: 896px;
+        position: relative;
+        display: flex; 
+        background: url("../img/ship.png");
+        background-size: 2100% 100%;
+        animation: fly 1s steps(1) infinite;
+        animation-play-state: running; 
+    }
+    
+    
+    @keyframes fly {
+        0%{background-position: -0.0px 0px;}
+        10%{background-position: -412.43px 0px;}
+        15%{background-position: -824.86px 0px;}
+        20%{background-position: -1237.2900000000002px 0px;}
+        25%{background-position: -1649.72px 0px;}
+        30%{background-position: -2062.15px 0px;}
+        35%{background-position: -2474.5800000000004px 0px;}
+        40%{background-position: -2887.01px 0px;}
+        45%{background-position: -3299.44px 0px;}
+        50%{background-position: -3711.8700000000003px 0px;}
+        52%{background-position: -4124.3px 0px;}
+        56%{background-position: -4536.7300000000005px 0px;}
+        60%{background-position: -4949.160000000001px 0px;}
+        65%{background-position: -5361.590000000001px 0px;}
+        68%{background-position: -5774.02px 0px;}
+        70%{background-position: -6186.450000000001px 0px;}
+        75%{background-position: -6598.88px 0px;}
+        80%{background-position: -7011.31px 0px;}
+        85%{background-position: -7423.740000000001px 0px;}
+        90%{background-position: -7836.17px 0px;}
+        100%{background-position: -8248.6px 0px;}
+    }
+      
+    .chechik{
+        width: 360.45px;
+        height: 304px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: chech 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    .chechik:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech {
+    
+        0% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        20% {
+            margin-left: -20%;
+            margin-right: 0%;
+        }
+    
+        60%{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        80%{
+            margin-right: -20%;
+            margin-left: 0%;
+        }
+    
+        100% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        
+    }
+    
+    .pix{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+        z-index: 1;
+    } 
+    
+    
+    .game4{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik2{
+        width: 339px;
+        height: 302.25px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel2.png");
+        background-size: 200% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: colormix 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .chechik2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes colormix{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 678px 0px;}
+    } 
+    
+    .pix2{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+    } 
+    
+    .game5{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik3{
+        width: 321px;
+        height: 295.23px;
+        position: absolute;
+        display: flex; 
+        margin-top: 10%;
+        background: url("../img/chel3.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        animation: chech3 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    }
+    
+    
+    .chechik3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech3 {
+    
+        0% {
+           margin-top: 20%;
+           margin-bottom: 0%;
+        }
+    
+        20% {
+            margin-top: 10%;
+            margin-bottom: 0%;
+        }
+    
+        60%{
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        80%{
+            margin-top: 30%;
+            margin-bottom: 0%;
+        }
+    
+        100% {
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        
+    }
+
+
+}
+
+@media screen and (min-width: 1366px){
+    .lilboxes{
+        position: relative;
+        display: flex;
+        margin-top: 1%;
+        width: 100%;
+        height: 30%;
+        justify-content: space-between;
+    }
+    
+    .lilbox1{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 30%; 
+    }  
+    
+    
+    .lilbox2{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 30%;
+    }
+    
+    .box2{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .box1{
+        position: relative;
+        display: flex;
+        width: 15%;
+        height: 100%;
+        margin-top: 1.5%;
+    }
+    
+    
+    .box3{
+        position: relative;
+        display: flex;
+        width: 15%;
+        height: 100%;
+        margin-top: 1.5%
+    }
+    
+    .box22{
+        position: relative;
+        display:inline-block;
+        margin: 1%;
+        width: 70%;   
+        height: 80%;
+    }
+    
+    .picture{
+        /* width: 15vw; */
+        width: 100%;
+        /* margin-right: 6%; */
+    }
+    
+    .picture5{
+        /* width: 15vw; */
+        width: 100%;
+        /* margin-left: 3%; */
+    }
+    
+    
+    .picture1{
+        width: 100%;
+    }
+    
+    .picture3{
+        width: 465px;
+        height: 219px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil2.png");
+        background-size: 200% 100%;
+        margin-left: 1%;
+        animation: picture3 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture3{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 922px 0px;}
+    } 
+
+    .picture2{
+        width: 465px;
+        height: 219px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil1.png");
+        background-size: 200% 100%;
+        margin-right: 1%;
+        animation: picture2 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture2{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 922px 0px;}
+    } 
+
+    .game1{
+        position: relative;
+        display: flex; 
+        width: 100%;    
+    }
+    
+    
+    .packman{
+        width: 975px;
+        height: 863px;
+        position: relative;
+        display: flex; 
+        background: url("../img/packman.png");
+        background-size: 1700% 100%;
+        animation: eat 5s steps(1) infinite;
+        animation-play-state: running; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    @keyframes eat {
+        0%{background-position: 0.0px 0px;}
+        10%{background-position: -975.0px 0px;}
+        15%{background-position: -1950.0px 0px;}
+        20%{background-position: -2925.0px 0px;}
+        25%{background-position: -3900.0px 0px;}
+        30%{background-position: -4875.0px 0px;}
+        35%{background-position: -5850.0px 0px;}
+        40%{background-position: -6825.0px 0px;}
+        45%{background-position: -7800.0px 0px;}
+        50%{background-position: -8775.0px 0px;}
+        55%{background-position: -9750.0px 0px;}
+        60%{background-position: -10725.0px 0px;}
+        65%{background-position: -11700.0px 0px;}
+        70%{background-position: -12675.0px 0px;}
+        75%{background-position: -13650.0px 0px;}
+        80%{background-position: -14625.0px 0px;}
+        90%{background-position: -15600.0px 0px;}
+        100%{background-position: -16575.0px 0px;}
+    }
+
+    .ship {
+        width: 349px;
+        height: 863px;
+        position: relative;
+        display: flex; 
+        background: url("../img/ship.png");
+        background-size: 2100% 100%;
+        animation: fly 1s steps(1) infinite;
+        animation-play-state: running; 
+    }
+    
+    
+    @keyframes fly {
+        0%{background-position: 0.0px 0px;}
+        10%{background-position: -349.0px 0px;}
+        15%{background-position: -698.0px 0px;}
+        20%{background-position: -1047.0px 0px;}
+        25%{background-position: -1396.0px 0px;}
+        28%{background-position: -1745.0px 0px;}
+        30%{background-position: -2094.0px 0px;}
+        35%{background-position: -2443.0px 0px;}
+        40%{background-position: -2792.0px 0px;}
+        45%{background-position: -3141.0px 0px;}
+        50%{background-position: -3490.0px 0px;}
+        54%{background-position: -3839.0px 0px;}
+        58%{background-position: -4188.0px 0px;}
+        60%{background-position: -4537.0px 0px;}
+        65%{background-position: -4886.0px 0px;}
+        70%{background-position: -5235.0px 0px;}
+        75%{background-position: -5584.0px 0px;}
+        80%{background-position: -5933.0px 0px;}
+        85%{background-position: -6282.0px 0px;}
+        90%{background-position: -6631.0px 0px;}
+        100%{background-position: -6980.0px 0px;}
+    }
+      
+    .chechik{
+        width: 335.45px;
+        height: 281px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: chech 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    .chechik:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech {
+    
+        0% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        20% {
+            margin-left: -20%;
+            margin-right: 0%;
+        }
+    
+        60%{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        80%{
+            margin-right: -20%;
+            margin-left: 0%;
+        }
+    
+        100% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        
+    }
+    
+    .pix{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+        z-index: 1;
+    } 
+    
+    
+    .game4{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik2{
+        width: 320px;
+        height: 281px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel2.png");
+        background-size: 200% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: colormix 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .chechik2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes colormix{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 640px 0px;}
+    } 
+    
+    .pix2{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+    } 
+    
+    .game5{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik3{
+        width: 321px;
+        height: 281px;
+        position: absolute;
+        display: flex; 
+        margin-top: 10%;
+        background: url("../img/chel3.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        animation: chech3 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    }
+    
+    
+    .chechik3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech3 {
+    
+        0% {
+           margin-top: 20%;
+           margin-bottom: 0%;
+        }
+    
+        20% {
+            margin-top: 10%;
+            margin-bottom: 0%;
+        }
+    
+        60%{
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        80%{
+            margin-top: 30%;
+            margin-bottom: 0%;
+        }
+    
+        100% {
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        
+    }
+
+
+
+}
+
+@media screen and (min-width: 1024px){
+    .lilboxes{
+        position: relative;
+        display: flex;
+        margin-top: 1%;
+        width: 100%;
+        height: 30%;
+        justify-content: space-between;
+    }
+    
+    .lilbox1{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 30%; 
+    }  
+    
+    
+    .lilbox2{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 30%;
+    }
+    
+    .box2{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .box1{
+        position: relative;
+        display: flex;
+        width: 15%;
+        height: 100%;
+        margin-top: 1.5%;
+    }
+    
+    
+    .box3{
+        position: relative;
+        display: flex;
+        width: 15%;
+        height: 100%;
+        margin-top: 1.5%
+    }
+    
+    .box22{
+        position: relative;
+        display:inline-block;
+        margin: 1%;
+        width: 70%;   
+        height: 80%;
+    }
+    
+    .picture{
+        /* width: 15vw; */
+        width: 100%;
+        /* margin-right: 6%; */
+    }
+    
+    .picture5{
+        /* width: 15vw; */
+        width: 100%;
+        /* margin-left: 3%; */
+    }
+    
+    
+    .picture1{
+        width: 100%;
+    }
+    
+    .picture3{
+        width: 340px;
+        height: 174px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil2.png");
+        background-size: 200% 100%;
+        margin-left: 1%;
+        animation: picture3 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture3{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 680px 0px;}
+    } 
+
+    .picture2{
+        width: 340px;
+        height: 174px;
+        display: flex;
+        position: relative;
+        background: url("../img/lil1.png");
+        background-size: 200% 100%;
+        margin-right: 1%;
+        animation: picture2 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .picture2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes picture2{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 680px 0px;}
+    } 
+
+    .game1{
+        position: relative;
+        display: flex; 
+        width: 100%;    
+    }
+    
+    
+    .packman{
+        width: 708px;
+        height: 638px;
+        position: relative;
+        display: flex; 
+        background: url("../img/packman.png");
+        background-size: 1700% 100%;
+        animation: eat 5s steps(1) infinite;
+        animation-play-state: running; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    @keyframes eat {
+        0%{background-position: 0.0px 0px;}
+        10%{background-position: -708.0px 0px;}
+        15%{background-position: -1416.0px 0px;}
+        20%{background-position: -2124.0px 0px;}
+        25%{background-position: -2832.0px 0px;}
+        30%{background-position: -3540.0px 0px;}
+        35%{background-position: -4248.0px 0px;}
+        40%{background-position: -4956.0px 0px;}
+        45%{background-position: -5664.0px 0px;}
+        50%{background-position: -6372.0px 0px;}
+        55%{background-position: -7080.0px 0px;}
+        60%{background-position: -7788.0px 0px;}
+        65%{background-position: -8496.0px 0px;}
+        70%{background-position: -9204.0px 0px;}
+        75%{background-position: -9912.0px 0px;}
+        80%{background-position: -10620.0px 0px;}
+        90%{background-position: -11328.0px 0px;}
+        100%{background-position: -12036.0px 0px;}
+    }
+
+    .ship {
+        width: 285px;
+        height: 638px;
+        position: relative;
+        display: flex; 
+        background: url("../img/ship.png");
+        background-size: 2100% 100%;
+        animation: fly 1s steps(1) infinite;
+        animation-play-state: running; 
+    }
+    
+    
+    @keyframes fly {
+        0%{background-position: 0.0px 0px;}
+        10%{background-position: -285.0px 0px;}
+        15%{background-position: -570.0px 0px;}
+        20%{background-position: -855.0px 0px;}
+        25%{background-position: -1140.0px 0px;}
+        30%{background-position: -1425.0px 0px;}
+        35%{background-position: -1710.0px 0px;}
+        40%{background-position: -1995.0px 0px;}
+        42%{background-position: -2280.0px 0px;}
+        46%{background-position: -2565.0px 0px;}
+        50%{background-position: -2850.0px 0px;}
+        55%{background-position: -3135.0px 0px;}
+        60%{background-position: -3420.0px 0px;}
+        65%{background-position: -3705.0px 0px;}
+        70%{background-position: -3990.0px 0px;}
+        75%{background-position: -4275.0px 0px;}
+        80%{background-position: -4560.0px 0px;}
+        85%{background-position: -4845.0px 0px;}
+        90%{background-position: -5130.0px 0px;}
+        95%{background-position: -5415.0px 0px;}
+        100%{background-position: -5700.0px 0px;}
+    }
+      
+    .chechik{
+        width: 250px;
+        height: 205px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: chech 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    
+    .chechik:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech {
+    
+        0% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        20% {
+            margin-left: -20%;
+            margin-right: 0%;
+        }
+    
+        60%{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        80%{
+            margin-right: -20%;
+            margin-left: 0%;
+        }
+    
+        100% {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+        
+    }
+    
+    .pix{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+        z-index: 1;
+    } 
+    
+    
+    .game4{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik2{
+        width: 250px;
+        height: 205px;
+        position: absolute;
+        display: flex; 
+        background: url("../img/chel2.png");
+        background-size: 200% 100%;
+        z-index: 2;
+        margin-top: 18%;
+        animation: colormix 1s steps(2) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    } 
+    
+    .chechik2:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes colormix{
+        0%{background-position: 0px 0px;}
+        100%{background-position: 500px 0px;}
+    } 
+    
+    .pix2{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex; 
+    } 
+    
+    .game5{
+        position: relative;
+        display: flex; 
+        width: 100%; 
+        height: 100%;    
+        margin-top: 1%;
+        margin-left: 1%;
+        justify-content: center;
+    }
+    
+    .chechik3{
+        width: 250px;
+        height: 205px;
+        position: absolute;
+        display: flex; 
+        margin-top: 10%;
+        background: url("../img/chel3.png");
+        background-size: 100% 100%;
+        z-index: 2;
+        animation: chech3 1s steps(1) infinite;
+        animation-play-state: paused; /* анимация по дефолту стоит на паузе */
+    }
+    
+    
+    .chechik3:hover{
+        animation-play-state: running; /* запуск анимации */
+    }
+    
+    @keyframes chech3 {
+    
+        0% {
+           margin-top: 20%;
+           margin-bottom: 0%;
+        }
+    
+        20% {
+            margin-top: 10%;
+            margin-bottom: 0%;
+        }
+    
+        60%{
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        80%{
+            margin-top: 30%;
+            margin-bottom: 0%;
+        }
+    
+        100% {
+            margin-top: 20%;
+            margin-bottom: 0%;
+        }
+    
+        
+    }
+
+
+
+}
